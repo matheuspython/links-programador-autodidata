@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.header`
   height: 60px;
   background: ${props => props.theme.colors.primary};
   color: ${props => props.theme.colors.text};
