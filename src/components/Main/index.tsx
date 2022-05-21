@@ -1,13 +1,15 @@
 import React from 'react';
 import { ItemListi } from '../ItemListi/index';
-import { YoutubeLogo, TwitchLogo, InstagramLogo, LinkedinLogo, Money } from 'phosphor-react'; 
-import {
-  useNavigate
-} from "react-router-dom";
+import { 
+  YoutubeLogo, 
+  TwitchLogo, 
+  InstagramLogo, 
+  LinkedinLogo, 
+  Money } from 'phosphor-react'; 
+
 import { Container } from './styles';
 
 export const Main: React.FC = () => {
-  let navigate = useNavigate();
   return (
     <Container>
       <div className="container">
@@ -34,7 +36,7 @@ export const Main: React.FC = () => {
           />
           <ItemListi
             img={<Money size={30}/>}
-            link={''}
+            link={'sla'}
             mediaName={'doação'}
           />
         </ul>
