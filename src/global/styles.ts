@@ -10,8 +10,8 @@ export const Globals = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
   }
   body{
-    background: ${props => props.theme.colors.background};
+    background: #222;
     font-size: 14px;
-    color: ${props => props.theme.colors.text};
+    color: #fff;
   }
 `

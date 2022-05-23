@@ -10,11 +10,11 @@ export const Container = styled.li`
     justify-content: center;
     align-items: center;
     gap: 9px;
-    background-color: ${theme => theme.theme.colors.secundary};
+    background-color: #c62e65;
     border-radius: 8px;
     a{
       text-decoration: none;
-      color: ${theme => theme.theme.colors.text};
+      color: #fff;
       transition: .4s;
 
       &:hover{

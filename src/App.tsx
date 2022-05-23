@@ -1,6 +1,5 @@
 import React from 'react'
 import { Globals } from './global/styles'
-import light from './global/themes/light'
 import { Main } from './components/Main';
 
 export const App:React.FC = () => {
