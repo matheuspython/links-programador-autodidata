@@ -12,7 +12,7 @@ export const App:React.FC = () => {
   const [theme, setTheme] = useState(dark)
 
   const toggleTheme = () =>  setTheme(theme.title === 'light' ? dark : light)
-  
+   
   return (
     <ThemeProvider theme={theme}>
       <Globals />
