@@ -36,7 +36,7 @@ export const Main: React.FC = () => {
           />
           <ItemListi
             img={<Money size={30}/>}
-            link={'sla'}
+            link={'https://doacoes-programador-autodidata.vercel.app/'}
             mediaName={'doação'}
           />
         </ul>
